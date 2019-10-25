@@ -1,5 +1,5 @@
-title: Your Title
-subtitle: Be subtle
+title: Merry Merkle
+subtitle: Giving Globally
 description: "All you need is love"
 author: your_name_here
 timezone: UTC
@@ -12,7 +12,7 @@ permalink_defaults:
   lang: en
 i18n_dir: :lang
 
-url: https://thebluebook.co.za/
+url: https://merrymerkle.world
 root: /
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -27,7 +27,7 @@ highlight:
 theme: navy
 deploy:
   type: git
-  repo: git@github.com:andytudhope/thebluebook.git
+  repo: git@github.com:andytudhope/merrymerkle-world.git
   branch: gh-pages
 
 twitter: cryptowanderer

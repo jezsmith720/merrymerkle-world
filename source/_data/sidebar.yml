@@ -1,14 +1,8 @@
 book:
-  chapter-1:
-    chapter-1: / (Chapter 1)
-    example: example.html
-  chapter-2:
-    chapter-2: / (Chapter 2)
-    example-2: example-2.html
-  chapter-3:
-    chapter-3: / (Chapter 3)
-  chapter-4:
-    chapter-4: / (Chapter 4)
-  four-part-harmony:
-    four-part-harmony: / (Four Part Harmony)
+  background:
+    canada: canada.html (Canada)
+    south-africa: south-africa.html (South Africa)
+    the-world: the-world.html (The World)
+  our-goal:
+    our-goal: / (Our Goal)
   

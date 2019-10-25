@@ -1,5 +1,5 @@
 ---
-title: Proof of Love
-description: Yeah, love...
+title: Merry Merkle
+description: Giving Globally
 layout: index
 ---
