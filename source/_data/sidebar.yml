@@ -1,8 +1,13 @@
-book:
-  background:
-    canada: canada.html (Canada)
-    south-africa: south-africa.html (South Africa)
-    the-world: the-world.html (The World)
-  our-goal:
-    our-goal: / (Our Goal)
+docs:
+  - title: Background
+    path: background
+    children:
+      - title: Canada
+        path: canada.html
+      - title: South Africa
+        path: south-africa.html
+      - title: The World
+        path: the-world.html
+  - title: Our Goal
+    path: our-goal/index.html
   

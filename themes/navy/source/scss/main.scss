@@ -1150,47 +1150,42 @@ footer{
         list-style-type: none;
         margin: 0;
         padding: 0;
-        li{
-            margin-bottom: 20px;
-            &.active{
-                a{
-                    color: $purple;
-                }
-                .sidebar-submenu{
-                    display: block;
-                }
-            }
-            a{
+        li {
+            font-weight: $ibm-plex-sans-regular;
+            margin: 10px 0px;
+
+            a {
                 color: $black;
-                font-weight: $ibm-plex-sans-medium;
                 img{
                     margin-left: 10px;
                 }
             }
-            .sidebar-submenu{
-                list-style-type: none;
-                margin-top: 20px;
-                padding-left: 20px;
+
+            ul {
                 display: none;
-                li{
-                    margin-bottom: 10px;
-                    height:48px;
-                    &.active{
-                        a{
-                            color: $purple;
-                            font-weight: $ibm-plex-sans-medium;
-                        }
-                    }
-                    a{
-                        font-size: 15px;
-                        font-weight: $ibm-plex-sans-regular;
-                        color: $black;
-                        img{
-                            margin-left: 15px;
-                        }
-                    }
-                }
             }
+        }
+
+        >li {
+            margin-bottom: 20px;
+            font-weight: $ibm-plex-sans-medium;
+        }
+
+        li.active>a {
+            color: $purple;
+            font-weight: $ibm-plex-sans-medium;
+        }
+
+        li.active {
+            ul {
+                display: block;
+            }
+        }
+
+        .sidebar-submenu{
+            list-style-type: none;
+            padding-left: 20px;
+            font-size: 15px;
         }
     }
 }
@@ -1643,8 +1638,8 @@ header{
         width: 450px;
         height: 400px;
     }
-    .resp-iframe-donate {
-        width: 500px;
+    .resp-iframe-donate, .resp-iframe {
+        width: 100%;
     }
     .circles-col {
         margin: 150px 0 0 -130px;
@@ -1698,15 +1693,9 @@ header{
 }
 
 @media screen and (max-width: 767px) {
-    .resp-iframe-donate {
-        width: 720px;
-    }
     .circles-col {
         margin: 150px 100px;
         padding-bottom: 120px;
-    }
-    .resp-iframe {
-        width: 760px;
     }
     .section-2-left {
         iframe {
@@ -1943,15 +1932,9 @@ header{
 }
 
 @media screen and (max-width: 455px) {
-    .resp-iframe-donate {
-        width: 420px;
-    }
     .circles-col {
         margin: 100px -50px;
         padding-bottom: 160px;
-    }
-    .resp-iframe {
-        width: 450px;
     }
     .section-2-left {
         iframe {
@@ -1963,15 +1946,9 @@ header{
 }
 
 @media screen and (max-width: 355px) {
-    .resp-iframe-donate {
-        width: 320px;
-    }
     .circles-col {
         margin: 100px -90px;
         padding-bottom: 160px;
-    }
-    .resp-iframe {
-        width: 350px;
     }
     .section-2-left {
         iframe {
