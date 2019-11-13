@@ -926,11 +926,11 @@ footer {
     .single-docs-content .editor-content figure {
       margin: 30px 0; }
     .single-docs-content .editor-content h1, .single-docs-content .editor-content h2, .single-docs-content .editor-content h3, .single-docs-content .editor-content h4, .single-docs-content .editor-content h5, .single-docs-content .editor-content h6 {
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      text-align: left; }
     .single-docs-content .editor-content h1 {
       line-height: 44px;
-      font-size: 38px;
-      text-align: left; }
+      font-size: 38px; }
     .single-docs-content .editor-content h2 {
       line-height: 31px;
       font-size: 31px; }

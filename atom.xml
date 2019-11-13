@@ -3,11 +3,11 @@
   <title>Merry Merkle</title>
   
   <subtitle>Giving Globally</subtitle>
-  <link href="/merrymerkle-world/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://andytudhope.github.io/"/>
+  <link href="https://merrymerkle.christmas/"/>
   <updated>2019-10-24T06:16:08.919Z</updated>
-  <id>https://andytudhope.github.io/</id>
+  <id>https://merrymerkle.christmas/</id>
   
   <author>
     <name>your_name_here</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Nimbus</title>
-    <link href="https://andytudhope.github.io/news/2019/06/01/filler/"/>
-    <id>https://andytudhope.github.io/news/2019/06/01/filler/</id>
+    <link href="https://merrymerkle.christmas/news/2019/06/01/filler/"/>
+    <id>https://merrymerkle.christmas/news/2019/06/01/filler/</id>
     <published>2019-06-01T00:00:00.000Z</published>
     <updated>2019-10-24T06:16:08.919Z</updated>
     
