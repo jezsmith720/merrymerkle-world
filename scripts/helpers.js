@@ -37,7 +37,7 @@ function genSidebarList(parent, entries) {
     let isActive = ('/'+self.path).startsWith(fullPath)
     return `
       <li class="${isActive ? "active" : ""}">
-        <a href="/merrymerkle-world${fullPath}">${entry.title}</a>
+        <a href="${fullPath}">${entry.title}</a>
         ${(entry.children != undefined) ? `
         <ul class="sidebar-submenu">
           ${genSidebarList.call(self, fullPath, entry.children)}
