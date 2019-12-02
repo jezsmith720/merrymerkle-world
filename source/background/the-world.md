@@ -21,9 +21,11 @@ First up, in Cape Town, South Africa, we have [The Zoe Project](https://thezoepr
 
 Making sure that potential mothers know what options are available to them, and can access the kind of care they need (both physical and mental) as they go through pregnancy and birth is essential to ensuring a more healthy and wholesome next generation. The first 100 days of a child's life are often the most critical, and the pre- and antenatal care provided by the amazing women in Cape Town make a huge difference in the lives of both mothers and children from otherwise-forgotten areas around the city.
 
-### Education in the Flavellas
+### Education in the Favelas
 
-To be filled out by Simona.
+At the second half of 2019, Blockchain Academy (Brazil) and [Maker DAO](https://makerdao.com) created a partnership to offer blockchain education and programming skills for underprivileged youth in Rio de Janeiro, a program first ideated by the Word Bank. While this course is still going, many young participants have taken part in classes covering Bitcoin, Ethereum and DAI wallets and applications, aiming to allow for them to have a broader understanding of the new developments in decentralized finance and access job opportunities. 
+
+More partners joined the initiative, such as [Trampol.in](https://www.trampol.in), offering course coordination and [Bounties Network](https://explorer.bounties.network), offering an invaluable tool to stimulate the participants to continue their learning by earning DAI for completing tasks. A small scale Hackathon is also being planned for the closing event with projects suggested and made with the participation of the community. The plan is to expand this project across Brazil for even more students, enabling them to participate in the global economy. All funds donated will be used for the bounties, supporting the BA staff, and setting up the hackathon.
 
 ### UNICEF
 
