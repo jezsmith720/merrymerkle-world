@@ -8,7 +8,7 @@
 }
 
 body{
-    background: $white;
+    background: $light-pink;
     font-family: $ibm-plex-sans;
     font-weight: $ibm-plex-sans-regular;
     font-size: 16px;
@@ -42,7 +42,7 @@ p{
 }
 
 sup {
-    color: #5A28C6;
+    color: #b8627d;
 }
 
 .p-large{
@@ -58,7 +58,7 @@ sup {
 .teaser-2{
     line-height: 36px;
     font-size: 24px;
-    color: #5A28C6;
+    color: #b8627d;
     font-family: $manrope;
     font-weight: $manrope-medium;
     margin-bottom: 50px;
@@ -78,10 +78,10 @@ svg{
 }
 
 a{
-    color: $black;
+    color: $light-purple;
     transition: all .3s ease;
     &:hover{
-        color: $dark-purple;
+        color: $dark-green;
     }
 }
 
@@ -259,17 +259,17 @@ h4{
 }
 
 .btn-purple{
-    color: $dark-purple;
-    border: 1px solid $dark-purple;
+    color: $dark-green;
+    border: 1px solid $dark-green;
     &:hover{
         color: $white;
-        background: $dark-purple;
-        border: 1px solid $dark-purple;
+        background: $dark-green;
+        border: 1px solid $dark-green;
     }
     &:active,
     &:focus{
-        color: $dark-purple;
-        border: 1px solid $dark-purple;
+        color: $dark-green;
+        border: 1px solid $dark-green;
         background-color: transparent;
     }
 }
@@ -279,7 +279,7 @@ h4{
     border: 1px solid $purple;
     color: $white;
     &:hover{
-        background: $dark-purple;
+        background: $dark-green;
     }
     &:active,
     &:focus{
@@ -470,7 +470,7 @@ h4{
 
 .rotating-circle {
     border-radius: 50%;
-    border: 2px solid #5A28C6;
+    border: 4px solid #0f7d80;
     height: 256px;
     width: 256px;
     -webkit-animation:rotate3d 8s linear infinite;
@@ -479,11 +479,11 @@ h4{
 }
 @-moz-keyframes rotate3d { 100% { -moz-transform: rotateY(360deg); } }
 @-webkit-keyframes rotate3d { 100% { -webkit-transform: rotateY(360deg); } }
-@keyframes rotate3d { 
+@keyframes rotate3d {
     0% {
         transform: rotateY(0deg);
     }
-    
+
     100% {
         transform: rotateY(360deg);
     }
@@ -496,37 +496,37 @@ h4{
 .rc-2 {
     margin-top: -256px;
     margin-left: 128px;
-    border: 2px solid #D73CDF;
+    border: 4px solid #9DA5CC;
 }
 
 .rc-3 {
     margin-top: -256px;
     margin-left: 256px;
-    border: 2px solid #9600DD;
+    border: 4px solid #b8627d;
 }
 
 .rc-4 {
-    margin-top: -132px;
+    margin-top: -164px;
     margin-left: 50px;
-    border: 2px solid #C700D7;
+    border: 4px solid #b8627d;
 }
 
 .rc-5 {
     margin-top: -256px;
     margin-left: 200px;
-    border: 2px solid #A91DD0;
+    border: 4px solid #0f7d80;
 }
 
 .rc-6 {
-    margin-top: -512px;
+    margin-top: -464px;
     margin-left: 200px;
-    border: 2px solid #A91DD0;
+    border: 4px solid #0f7d80;
 }
 
 .rc-7 {
     margin-top: -256px;
     margin-left: 50px;
-    border: 2px solid #A91DD0;
+    border: 4px solid #b8627d;
 }
 
 .col-dark-grey,
@@ -549,18 +549,18 @@ h4{
 }
 
 .col-grey:before{
-    background-image: radial-gradient(circle, #8F00DB, #A900DB, #D071E7);
+    background-image: radial-gradient(circle,#d894a9,#b8627d, #903a55);
     color: $white;
 }
 
 .col-grey{
     color: $white;
     h1, h2, h3, h4, h5, h6{
-        color: $black;
+        color: $white;
         font-family: $euphoria-script;
     }
     .teaser-2{
-        color: rgba( $black, 1 );
+        color: rgba( $white, 1 );
     }
     .p-large{
         color: rgba( $white, 1 );
@@ -607,7 +607,7 @@ header{
                 align-self: stretch;
                 &.active{
                     a{
-                        color: $dark-purple;
+                        color: $dark-green;
                     }
                 }
                 &.has-submenu{
@@ -691,7 +691,7 @@ header{
                                 width: 50%;
                                 a{
                                     padding: 10px 20px 10px 0;
-                                    color: $dark-purple;
+                                    color: $dark-green;
                                     font-family: $manrope;
                                     font-weight: $manrope-semi-bold;
                                     &:before{
@@ -756,7 +756,7 @@ header{
                 }
                 &:hover{
                     a{
-                        color: $dark-purple;
+                        color: $dark-green;
                         .arrow{
                             transform: rotate(180deg);
                         }
@@ -953,7 +953,7 @@ footer{
 /*-----HOME-----*/
 
 .home-intro{
-    padding-top: 80px;
+    padding-top: 30px;
     .inner{
         padding: 30px 0;
     }
@@ -1043,7 +1043,7 @@ footer{
 
 .resp-iframe-donate {
   height: 320px;
-  width: 600px;
+  width: 100%;
 }
 
 /*==== Doc Pages ----*/
@@ -1106,7 +1106,7 @@ footer{
             display: block;
             margin-top: 10px;
         }
-    }   
+    }
 }
 
 .docs-content-intro{
@@ -1127,7 +1127,7 @@ footer{
 }
 
 .stripe{
-    background: radial-gradient(circle, #D071E7, #A900DB, #8F00DB);
+    background: radial-gradient(circle,#d894a9,#b8627d, #903a55);
     display: flex;
     align-items: center;
     padding: 0 40px;
@@ -1155,7 +1155,7 @@ footer{
             margin: 10px 0px;
 
             a {
-                color: $black;
+                color: $light-purple;
                 img{
                     margin-left: 10px;
                 }
@@ -1359,7 +1359,7 @@ footer{
             margin: 40px -20px 20px;
             &:first-child{
                 margin-top: -20px;
-            } 
+            }
         }
         ul{
             list-style-type: none;
@@ -1414,8 +1414,8 @@ header{
     }
     .teaser-1{
         line-height: 26px;
-        font-size: 16px;
-        margin-bottom: 30px;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
     .teaser-2{
         line-height: 22px;
@@ -1469,7 +1469,7 @@ header{
                 width: 80%;
             }
         }
-    } 
+    }
     .section-1-left {
         .inner {
             padding: 50px 0;
@@ -1683,7 +1683,7 @@ header{
                 }
             }
         }
-    } 
+    }
     .position-relative{
         display: none;
     }
@@ -1720,13 +1720,13 @@ header{
     }
     .col-offset-top{
         margin-top: 0;
-    } 
-    .col-dark-grey:last-child:before, 
+    }
+    .col-dark-grey:last-child:before,
     .col-grey:last-child:before{
         left: -100vw;
         width: 200vw;
-    } 
-    .col-dark-grey:before, 
+    }
+    .col-dark-grey:before,
     .col-grey:before{
         right: -100vw;
         width: 200vw;
